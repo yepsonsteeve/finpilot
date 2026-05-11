@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+const { useState } = React;
 import { AreaChart, Area, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 const INITIAL_EXPENSES = [
