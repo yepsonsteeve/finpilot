@@ -355,3 +355,9 @@ export default function App() {
     </div>
   );
 }
+import React from 'react';
+import { useState } from "react";
+import {
+  AreaChart, Area, PieChart, Pie, Cell,
+  XAxis, YAxis, Tooltip, ResponsiveContainer
+} from "recharts";
