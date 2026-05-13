@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import React, { useState, useEffect } from 'react';
+const { useState, useEffect } = React;
 import { AreaChart, Area, LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer } from “recharts”;
 
 // ─── Storage ──────────────────────────────────────────────────────────────────
